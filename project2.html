@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Holiday Packages</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "nav nav"
+            "about article";
+            grid-template-columns: 30% 69%;
+            grid-template-rows: 6% 2% 90%;
+            grid-gap: 20px;
+            height: 2600px;
+            width: 100vf;
+        }
+        footer{
+            background-color: aqua;
+        }
+        header{
+            grid-area: header;
+            background-image: url(https://media.istockphoto.com/id/1286119106/video/snowfall-in-the-mountains-falling-snowflakes-on-the-forest-animation-of-a-winter-background.jpg?s=640x640&k=20&c=cwqq5crcWPdHAo7BCf5vyPYtkDvpIfXTRgpRnM99nEY=);
+            display: flex;
+        }
+        #heading{
+            text-align: center;
+            font-size: xx-large;
+            font-weight: bolder;
+            color: rgb(39, 39, 106);
+            margin-top: 60px;
+            width: 1295px;
+            margin-right: 205px;
+        }
+        #image{
+            margin-top: 40px;
+            margin-left: 50px;
+            opacity: 0.8;
+        }
+        nav{
+            grid-area: nav;
+            background-color: #146696;
+            font-size: larger;
+        }
+        #th:hover{
+            background-color: rgb(42, 75, 126);
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: 50px;
+        }
+        th,td{
+            border: 2px solid black;
+            border-style: ridge;
+            border-spacing: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 7px;
+        }
+        article{
+            grid-area: article;
+        }
+        #about{
+            grid-area: about;
+            text-align: center;
+            margin-left: 30px;
+        }
+        #ho{
+            background-color: rgb(220, 224, 224);
+            padding-left: 50px;
+        }
+        #origin{
+            background-color: rgb(244, 246, 246);
+            text-align: left;
+            font-size: 16px;
+            padding-bottom: 20px;
+            box-shadow: 2px 2px 2px 2px rgb(196, 193, 193);
+            width: 400px;
+        }
+        li{
+            padding-top: 10px;
+        }
+        #ai{
+            margin-top: 30px;
+            background-color: rgb(244, 246, 246);
+            box-shadow: 2px 2px 2px 2px rgb(200, 199, 199);
+            width: 400px;
+        }
+        .package{
+            height: 220px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            background-color: rgb(244, 246, 246);
+            box-shadow: 2px 5px 2px 2px rgb(200, 199, 199);
+            display: flex;
+            gap: 10px;
+        }
+        .ming{
+            width: 270px;
+            border-radius: 8px 0px 0px 8px;
+        }
+        .mcont{
+            width: 290px;
+        }
+        .price{
+            width: 200px;
+            background-color: rgb(233, 238, 238);
+            border-radius: 0px 8px 8px 0px;
+            text-align: center;
+            line-height: 15px;
+        }
+        .box{
+            height: 35px;
+            width: 150px;
+            margin-left: 23px;
+            font-size: x-large;
+            font-weight: bold;
+            padding-top: 17px;
+            background-color: rgba(244, 204, 47, 0.745);
+        }
+        .box:hover{
+            background-color: rgba(246, 213, 79, 0.745);
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="image"><img height="100px" src="https://t3.ftcdn.net/jpg/04/32/54/24/240_F_432542454_kfzQHjWPgdi4sx9EfXqOLPzSXFiJBf8l.jpg" alt="Picture"></div>
+        <div id="heading">Railways Holiday Packages</div>
+    </header>
+    <nav> <nav>
+        <div id="navigation">
+            <table>
+                <tr>
+                    <th id="th" style="background-color: #125880;"><a href="http://127.0.0.1:5500/project.html" target="_blank" style="color: white;text-decoration: none;">Home</a></th>
+                    <th id="th"><a href="http://127.0.0.1:5500/project5.html" target="_blank" style="color: white;text-decoration: none;">Ticket Booking</a></th>
+                    <th id="th"><a href="http://127.0.0.1:5500/project1.html" target="_blank" style="color: white;text-decoration: none;">PNR Status</a></th>
+                    <th id="th"><a href="http://127.0.0.1:5500/project4.html" target="_blank" style="color: white;text-decoration: none;">Catering</a></th>
+                    <th id="th"><a href="" target="_blank" style="color: white;text-decoration: none;">Holiday Packages</a></th>
+                    <th id="th"><a href="http://127.0.0.1:5500/project3.html" target="_blank" style="color: white;text-decoration: none; ">Contact us</a></th>
+                </tr>
+            </table>
+        </div>
+    </nav>
+    </nav>
+    <article>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/NJH093/NJH093.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>JAIPUR-AGRA-DELHI EX JAIPUR</strong></p>
+                <p><b>Duration:</b>5 Nights/6 Days</p>
+                <p><b>Origin:</b>PORT BLAIR</p>
+                <p><b>Departure:</b>Daily</p>
+            </div>
+            <div class="mcont" style="padding-top: 50px;">
+                <p><b>Package Code:</b>EHH96</p>
+                <p><b>Destination:</b>HAVELOCK / NEIL / PORT BLAIR</p>
+                <p><b>Upcoming Date Of Journey:</b>19-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">₹ 23665</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/CFT06/CFT06.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>BUDDHIST HERITAGE</strong></p>
+                <p><b>Duration:</b>10 Nights/11 Days</p>
+                <p><b>Origin:</b>DELHI</p>
+                <p><b>Departure:</b>Daily</p>
+            </div>
+            <div class="mcont" style="padding-top: 25px;">
+                <p><b>Package Code:</b>CFT06</p>
+                <p><b>Destination:</b>AGRA / BODHGAYA / LUMBINI / SANKISSA / SARNATH / SRAVASTI / VARANASI</p>
+                <p><b>Upcoming Date Of Journey:</b>19-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">₹ 41055</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/NDR045/NDR045.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>NEW DELHI-AMRITSAR</strong></p>
+                <p><b>Duration:</b>1 Night/2 Days</p>
+                <p><b>Origin:</b>DELHI</p>
+                <p><b>Departure:</b>Every Friday & Saturday</p>
+            </div>
+            <div class="mcont" style="padding-top: 35px;">
+                <p><b>Package Code:</b>NDR045</p>
+                <p><b>Destination:</b>AMRITSAR</p>
+                <p><b>Upcoming Date Of Journey:</b>23-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">₹ 5450</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/CFT05/CFT05.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>BUDDHIST TRAIL</strong></p>
+                <p><b>Duration:</b>1 Night/2 Days</p>
+                <p><b>Origin:</b>VISAKHAPATNAM</p>
+                <p><b>Departure:</b>Daily</p>
+            </div>
+            <div class="mcont" style="padding-top: 35px;">
+                <p><b>Package Code:</b>SCBH18</p>
+                <p><b>Destination:</b>VISAKHAPATNAM</p>
+                <p><b>Upcoming Date Of Journey:</b>19-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">₹ 5264</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/WMR155A/WMR155A.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>RANN UTSAV PACKAGE WITH TRAIN TICKETS - WHITE RANN RESORTS</strong></p>
+                <p><b>Duration:</b>4 Nights/5 Days</p>
+                <p><b>Origin:</b>MUMBAI</p>
+                <p><b>Departure:</b>Every Wednesday</p>
+            </div>
+            <div class="mcont" style="padding-top: 80px;">
+                <p><b>Package Code:</b>WMR155</p>
+                <p><b>Destination:</b>Every Wednesday</p>
+                <p><b>Upcoming Date Of Journey:</b>21-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">
+                    ₹ 16350</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/WMA61/WMA61.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>AMRITSAR DALHOUSIE & DHARMSHALA</strong></p>
+                <p><b>Duration:</b>6 Nights/7 Days</p>
+                <p><b>Origin:</b>PUNE</p>
+                <p><b>Departure:</b>24.12.2022,28.01.2023 & 11.02.2023</p>
+            </div>
+            <div class="mcont" style="padding-top: 55px;">
+                <p><b>Package Code:</b>WMA61</p>
+                <p><b>Destination:</b>AMRITSAR / DALHOUSIE / DHARAMSHALA</p>
+                <p><b>Upcoming Date Of Journey:</b>24-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">₹ 41200</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/WMA24A/WMA24A.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>BEST OF HIMACHAL EX PUNE</strong></p>
+                <p><b>Duration:</b>6 Nights/7 Days</p>
+                <p><b>Origin:</b>PUNE</p>
+                <p><b>Departure:</b>24.12.22</p>
+            </div>
+            <div class="mcont" style="padding-top: 35px;">
+                <p><b>Package Code:</b>WMA24A</p>
+                <p><b>Destination:</b>CHANDIGARH / MANALI / SHIMLA</p>
+                <p><b>Upcoming Date Of Journey:</b>24-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">₹ 34200</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/SCBSR10/SCBSR10.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>KASHI-PRAYAGRAJ DARSHAN</strong></p>
+                <p><b>Duration:</b>4 Nights/5 Days</p>
+                <p><b>Origin:</b>DURG</p>
+                <p><b>Departure:</b>Every Thursday</p>
+            </div>
+            <div class="mcont" style="padding-top: 35px;">
+                <p><b>Package Code:</b>SCBSR10</p>
+                <p><b>Destination:</b>KASHI / PRAYAGRAJ</p>
+                <p><b>Upcoming Date Of Journey:</b>22-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">₹ 6930</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/SHR008/SHR008.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>SAI SHIVAM</strong></p>
+                <p><b>Duration:</b>3 Nights/4 Days</p>
+                <p><b>Origin:</b>HYDERABAD</p>
+                <p><b>Departure:</b>Every Friday</p>
+            </div>
+            <div class="mcont" style="padding-top: 35px;">
+                <p><b>Package Code:</b>SCBH18</p>
+                <p><b>Destination:</b>NASHIK / SHIRDI</p>
+                <p><b>Upcoming Date Of Journey:</b>23-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">
+                    ₹ 4200</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+        <div class="package">
+            <div class="ming">
+                <img src="https://www.irctctourism.com/packageImage/EZSD07/EZSD07.jpg" height="180px" width="250" style="padding: 8px;" alt="image">
+            </div>
+            <div class="mcont">
+                <p style="font-size: large;"><strong>SWADESH DARSHAN TOURIST TRAIN TO KOLKATA RANCHI PATNA SAHIB</strong></p>
+                <p><b>Duration:</b>5 Nights/6 Days</p>
+                <p><b>Origin:</b>GUWAHATI</p>
+                <p><b>Departure:</b>26.12.2022</p>
+            </div>
+            <div class="mcont" style="padding-top: 35px;">
+                <p><b>Package Code:</b>EZSD07</p>
+                <p><b>Destination:</b>KOLKATA / PATNA SAHEB / RANCHI</p>
+                <p><b>Upcoming Date Of Journey:</b>26-DEC-22
+                </p></div>
+            <div class="price">
+                <p style="font-size: x-large;">Starting from</p>
+                <p style="font-size: x-large; font-weight: bold;">₹ 12420</p>
+                <p><a href="" style="text-decoration: none;color: rgb(88, 140, 209);font-size: large;">View Details</a></p>
+                <div class="box">Book Now</div>
+            </div>
+        </div>
+    </article>
+    <article id="about">
+        <div id="origin">
+            <h1 id="ho">Origin</h1>
+            <ul type="none">
+                <li><input type="checkbox">AGRA</li>
+                <li><input type="checkbox">AJMER</li>
+                <li><input type="checkbox">BANGALORE</li>
+                <li><input type="checkbox">BHOPAL</li>
+                <li><input type="checkbox">CHENNAI</li>
+                <li><input type="checkbox">CHANDIGARH</li>
+                <li><input type="checkbox">DARJEELING</li>
+                <li><input type="checkbox">DURG</li>
+                <li><input type="checkbox">GUWAHATI</li>
+                <li><input type="checkbox">HYDERABAD</li>
+                <li><input type="checkbox">INDORE</li>
+                <li><input type="checkbox">JODHPUR</li>
+                <li><input type="checkbox">KOLKATA</li>
+                <li><input type="checkbox">LUCKNOW</li>
+                <li><input type="checkbox">MUMBAI</li>
+            </ul>
+        </div>
+        <div id="ai">
+            <img src="https://www.irctctourism.com/assets/img/LeftAdd.jpg" alt="">
+        </div>
+    </article>
+</body>
+</html>

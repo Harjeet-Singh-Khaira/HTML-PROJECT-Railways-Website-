@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fare Enquiry</title>
+    <style>
+        #top{
+            background-color: #2b86bb;
+            font-size: large;
+            height: 40px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        #top1{
+            font-size: larger;
+        }
+        .top{
+            color: white;
+            font-size: large;
+            text-decoration: none;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #heading{
+            text-align: center;
+            padding-top: 30px;
+            font-size: x-large;
+            height: 100px;
+        }
+        #img1{
+            float: left;
+            padding-left: 200px;
+        }
+        .img2{
+            float: right;
+            padding-right: 200px;
+        }
+        #mid{
+            float: right;
+            margin-right: 200px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        #mainheading{
+            float: right;
+            margin-right: 200px;
+            background-color: #2b86bb;
+            height: 40px;
+            color: white;
+            text-align: center;
+            width: 760px;
+            font-size: x-large;
+            padding-top: 10px;
+        }
+        #maintext{
+            float: right;
+            font-size: large;
+            margin-right: 200px;
+            width: 718px;
+            text-align: center;
+        }
+        .button{
+            background-color:#2b86bb;
+            color: white;
+            height: 30px;
+            width: 80px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        td{
+            float: left;
+            background-color: rgb(241, 239, 239);
+            margin-left: 200px;
+            border: 0px;
+            border-radius: 5px;
+            margin-top: 7px;
+            height: 40px;
+            width: 300px;
+            font-size: larger;
+            padding-top: 15px;
+            padding-left: 10px;
+        }
+        iframe{
+            float: right;
+            margin-right: 530px;
+            margin-top: 50px;
+        }
+        label{
+            width: 300px;
+            display: inline-block;
+        }
+        .input{
+            width: 200px;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <a class="top" id="top1" href="http://127.0.0.1:5500/project.html">Home</a>
+        <a class="top" id="top1" href="http://127.0.0.1:5500/project1.html">Railways Enquiry</a>
+        <a class="top" href="http://127.0.0.1:5500/project1-1.html">PNR Enquiry</a>
+        <a class="top" href="http://127.0.0.1:5500/project1-2.html">Reserved Train Between Stations</a>
+        <a class="top" href="http://127.0.0.1:5500/project1-3.html">Seat Availability</a>
+        <a class="top" href="http://127.0.0.1:5500/project1-4.html">Fare Enquiry</a>
+        <a class="top" href="http://127.0.0.1:5500/project1-5.html">Reserved Train Schedule</a>
+    </div>
+    <div id="heading">
+        <img height="100px" src=https://t3.ftcdn.net/jpg/04/32/54/24/240_F_432542454_kfzQHjWPgdi4sx9EfXqOLPzSXFiJBf8l.jpg alt="Railways" id="img1">
+        RAILWAYS PASSENGER RESERVATION ENQUIRY
+        <img height="100px" src="https://t3.ftcdn.net/jpg/04/32/54/24/240_F_432542454_kfzQHjWPgdi4sx9EfXqOLPzSXFiJBf8l.jpg " alt="Picture" class="img2">
+    </div>
+    <div id="mid">
+        <img src="https://tpc.googlesyndication.com/simgad/15256086411430773400?" alt="image" height="90" width="1000">
+    </div>
+    <div id="mainheading">
+        Fare Enquiry
+    </div>
+    <div id="maintext">
+        <b>
+        <p><label for="number">Enter Train Number:</label><input class="input" type="number" name="number" placeholder="Train number"></p>
+        <p><label for="Journey">Enter Journey Date:</label><input class="input" type="date" name="Journey"></p>
+        <p><label for="source">Enter Source Station:</label><input class="input" type="text" name="source" placeholder="Enter Source Station"></p>
+        <p><label for="destination">Enter Destination Station:</label><input class="input" type="text" name="destination" placeholder="Enter Destination Station"></p>
+        <p><label for="class">Enter Class</label><select name="class" id="class" class="input">
+            <option value="FAC">FIRST AC</option>
+            <option value="ECLASS">EXECUTIVE CLASS</option>
+            <option value="EANU">EXECUTIVE ANUBHUTI</option>
+            <option value="SAC">SECOND AC</option>
+            <option value="TAC">THIRD AC</option>
+            <option value="3ACECO">3 AC Economy</option>
+            <option value="ACCHAIR">AC CHAIR CAR</option>
+            <option value="FCLASS" selected>FIRST CLASS</option>
+            <option value="SCLASS">SLEEPER CLASS</option>
+            <option value="SECSEAT">SECOND SEATING</option>
+            <option value="VISTANONAC">VISTADOME NON AC</option>
+            <option value="CHAIRHIGHCAPA">CHAIR CAR HIGH CAPACITY</option>
+            <option value="SHIGHCAPA">SLEEPER HIGH CAPACITY</option>
+            <option value="VISTACC">VISTADOME_CC</option>
+            <option value="VISTAAC">VISTADOME_AC</option>
+        </select></p> 
+        <p><label for="class">Enter Quota</label><select name="class" id="class" class="input">
+            <option value="Tatkal">Tatkal Quota</option>
+            <option value="Ladies">Ladies Quota</option>
+            <option value="Defence">Defence Quota</option>
+            <option value="Foreign">Foreign Quota</option>
+            <option value="LowerBerth">Lower Berth Quota</option>
+            <option value="PremiumTatkal">Premium Tatkal Quota</option>
+            <option value="Yuva">Yuva Quota</option>
+            <option value="DutyPass">Duty Pass Quota</option>
+            <option value="Handicaped">Handicaped Quota</option>
+            <option value="Parliament">Parliament House</option>
+            <option value="General" selected>General Quota</option>
+        </select></p> 
+        <p><input type="submit" value="Get Fare" class="button"></p>
+        </b>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <a href="" style="text-decoration: none; color: black;">Services</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="" style="text-decoration: none; color: black;">Information</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div><center>
+        <iframe embed src="https://www.youtube.com/embed/CeR-WcKfvNU?controls=1&loop=1&autoplay=1&mute=1" height="250" width="400" style="border: none;">
+        </iframe></center>
+    </div>
+    <div id="mid">
+        <img src="https://tpc.googlesyndication.com/simgad/15256086411430773400?" alt="image" height="90" width="1000">
+    </div>
+    </body>
+</html>
